@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Page</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: transparent;
+            color: black;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+        }
+
+        .Returnbtn {
+            position: absolute;
+            top: 1em;
+            right: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 5px;
+        }
+
+        .products-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .product {
+            flex-basis: calc(33.33% - 20px);
+            margin-bottom: 20px;
+            border: 2px solid black;
+            padding: 20px;
+            box-sizing: border-box;
+            color: black;
+        }
+
+        .product img {
+            max-width: 100%;
+            max-height: 100px;
+            margin-bottom: 5px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .buy-now-button {
+            background-color: #3498db;
+        }
+
+        .buy-now-button:hover {
+            background-color: #2980b9;
+        }
+        .Returnbtn{
+            
+            background-color: rgb(193, 19, 19);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>WELCOME TO SHOPPING</h1>
+        <a href="index.html"><button class="Returnbtn">Return Home</button></a>
+    </header>
+
+    <main>
+        <div class="products-container">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="img/ttt.jpg" alt="Snake">
+                <h2>Snake</h2>
+                <p>$0.99</p>
+                <button>Add to Cart</button>
+                <button class="buy-now-button">Buy Now</button>
+            </div>   
+              
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="img/rose.jpg" alt="Rose">
+                <h2>Rose</h2>
+                <p>$1.99</p>
+                <button>Add to Cart</button>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="img/sss.jpg" alt="Tetrahydron">
+                <h2>Benzene</h2>
+                <p>$2.99</p>
+                <button>Add to Cart</button>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="img/lotus-flower.jpg" alt="Lotus">
+                <h2>Lotus</h2>
+                <p>$3.99</p>
+                <button>Add to Cart</button>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product">
+                <img src="img/fff.jpg" alt="Croton">
+                <h2>Croton</h2>
+                <p>$4.99</p>
+                <button>Add to Cart</button>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+            <!-- Product 6 -->
+            <div class="product">
+                <img src="img/jade.jpg" alt="jade">
+                <h2>Jade</h2>
+                <p>$3.56</p>
+                <button>Add to Cart</button>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+            <!--Product 7-->
+            <div class="product">
+                <img src="img/Bamboo.jpg" alt="jade">
+                <h2>Bamboo Plant</h2>
+                <p>$6.78</p>
+                <button>Add to Cart</button>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+            <!--Product 8-->
+            <div class="product">
+                <img src="img/zebra.jpg" alt="jade">
+                <h2>Zebra plant</h2>
+                <p>$5.8</p>
+                <button>Add to Cart</button>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+            <!--Product 9-->
+            <div class="product">
+                <img src="img/Sedeveria Succulent.jpg" alt="jade">
+                <h2>Sedeveria Succulent</h2>
+                <p>Description of Product 4.</p>
+                <p>$8.8</p>
+                <button>Add to Cart</button>
+                <button class="buy-now-button">Buy Now</button>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
