@@ -1,5 +1,5 @@
 # Ecommerce-site
-# this is my first project which is a ecommerce site.
+
 # output
 ![screencapture-localhost-3005-2024-04-10-18_10_44](https://github.com/Saru-Tiwari/Ecommerce-site/assets/167661535/33dd58e6-7886-4a96-a8c5-8879a1fe1433)
 ![screencapture-localhost-3005-about-html-2024-04-10-18_07_26](https://github.com/Saru-Tiwari/Ecommerce-site/assets/167661535/37f71321-d653-4b24-8159-a1d55ecdfdb0)
